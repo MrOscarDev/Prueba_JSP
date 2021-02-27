@@ -41,7 +41,7 @@ public class LoginController {
 	}
 	
 	/*Metodo de redireccionamiento de paginas*/
-	
+	/*Creando la segunda version*/
 	public void redireccionar(String pagina) throws IOException {
 		ExternalContext ec = FacesContext.getCurrentInstance().getExternalContext();
 		ec.redirect(pagina);
